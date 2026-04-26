@@ -31,13 +31,21 @@ Build a credible, source-backed city-by-city map that answers:
 - Data confidence/quality indicators.
 - Data maintenance workflow tied to `MEMORY.md`.
 
-## Suggested Technical Approach
+## Finalized Tech Stack (V1)
 
-- **Frontend**: React + TypeScript
-- **Map**: ECharts + China GeoJSON
-- **Data storage (early)**: JSON files in repo
-- **Data storage (later)**: database-backed API
-- **Build**: Vite
+| Layer | Choice | Notes |
+|---|---|---|
+| Frontend framework | React 18 + TypeScript | Component-driven UI + typed data model |
+| Build tool | Vite 5 | Fast local development and build |
+| Map rendering | Apache ECharts 5 | Efficient China map + event handling |
+| Geography data | China GeoJSON | Base map geometry for province/city plotting |
+| State management | React hooks (useState/useMemo) | Keep MVP simple before adding global state lib |
+| API/data access | Static JSON files (MVP) | Stored in `data/` for rapid iteration |
+| Future backend | Node.js + Express + PostgreSQL (planned) | For scaling updates and query/filter performance |
+| Styling | CSS Modules (or Tailwind optional) | Start lightweight and consistent |
+| QA/lint | ESLint + Prettier + TypeScript checks | Keep code quality stable from day one |
+
+See `TECH_STACK.md` for implementation-level package and command details.
 
 ## Data Contract (Starter Schema)
 
@@ -72,6 +80,7 @@ Build a credible, source-backed city-by-city map that answers:
 ```txt
 .
 ├── README.md
+├── TECH_STACK.md
 ├── PLAN.md
 ├── MEMORY.md
 ├── data/
@@ -92,7 +101,8 @@ Build a credible, source-backed city-by-city map that answers:
 
 1. Every meaningful app or data change must be logged in `MEMORY.md`.
 2. Every roadmap/scope change must be reflected in `PLAN.md`.
-3. Every correction entry must include:
+3. Every stack decision change must be reflected in `TECH_STACK.md`.
+4. Every correction entry must include:
    - previous state
    - corrected state
    - evidence/source
@@ -108,4 +118,5 @@ npm run dev
 ## Key Project Documents
 
 - Roadmap: `PLAN.md`
+- Tech stack details: `TECH_STACK.md`
 - Historical updates + corrections: `MEMORY.md`

@@ -10,7 +10,7 @@ Deliver an interactive map of China with clickable city profiles that are source
 
 | Milestone | Focus | Target Outcome |
 |---|---|---|
-| Phase 0 | Scope + data contract | Unambiguous schema and taxonomy |
+| Phase 0 | Scope + stack + data contract | Unambiguous schema, taxonomy, and stack lock |
 | Phase 1 | Map MVP | Clickable city map with pilot data |
 | Phase 2 | Profile UX | Full city details panel/modal |
 | Phase 3 | Data quality | Correction + validation workflow |
@@ -20,17 +20,18 @@ Deliver an interactive map of China with clickable city profiles that are source
 
 ---
 
-## Phase 0 — Scope & Data Contract
+## Phase 0 — Scope, Stack, & Data Contract
 
 ### Tasks
+- [ ] Finalize tech stack in `TECH_STACK.md`.
 - [ ] Finalize city schema fields.
 - [ ] Finalize industry taxonomy.
 - [ ] Define confidence rubric (`low/medium/high`).
 - [ ] Define source citation requirements.
 
 ### Acceptance Criteria
+- Stack, schema, and taxonomy are explicitly documented.
 - New city entries can be added without interpretation gaps.
-- Required/optional fields are clearly defined.
 
 ---
 
@@ -115,7 +116,7 @@ Deliver an interactive map of China with clickable city profiles that are source
 
 ## Immediate Next 7-Day Plan
 
-1. Confirm stack and libraries (React + TS + ECharts).
+1. Confirm and install locked stack from `TECH_STACK.md`.
 2. Lock schema and taxonomy.
 3. Scaffold app.
 4. Add first 5 pilot cities: Shenzhen, Suzhou, Shanghai, Wuhan, Chengdu.

@@ -71,7 +71,7 @@ For each correction entry, also include:
 
 ### [2026-04-26] — Documentation refinement after review
 - **Type**: docs
-- **Version/Commit**: (this commit)
+- **Version/Commit**: 1419eb0
 - **Summary**: Refined docs structure for clarity, traceability, and execution readiness.
 - **Details**:
   - Tightened README wording and made policy requirements explicit.
@@ -86,6 +86,28 @@ For each correction entry, also include:
 - **Correction?**:
   - Previous: Initial draft only.
   - New: More actionable and audit-friendly documentation.
+  - Evidence: Repository commit history.
+- **Follow-up**:
+  - [x] Confirmed review-driven refinements
+
+### [2026-04-26] — Added dedicated tech stack specification
+- **Type**: decision
+- **Version/Commit**: (this commit)
+- **Summary**: Added explicit stack definition and synchronized docs to reference it.
+- **Details**:
+  - Added new `TECH_STACK.md` with package-level stack details and setup commands.
+  - Updated `README.md` with a finalized stack table.
+  - Updated `PLAN.md` to include stack lock as a Phase 0 task.
+- **Why**:
+  - Remove ambiguity about implementation choices before scaffold.
+- **Impacted Areas**:
+  - `TECH_STACK.md`
+  - `README.md`
+  - `PLAN.md`
+  - `MEMORY.md`
+- **Correction?**:
+  - Previous: Stack only described at high level.
+  - New: Stack documented in dedicated file and linked from docs.
   - Evidence: This commit.
 - **Follow-up**:
-  - [x] Commit hash intentionally tracked as `(this commit)` to avoid amend drift.
+  - [ ] Run stack initialization commands and scaffold app
