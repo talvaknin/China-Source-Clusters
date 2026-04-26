@@ -1,0 +1,88 @@
+[
+  {
+    "city_id": "shenzhen",
+    "city_name": "Shenzhen",
+    "province": "Guangdong",
+    "coordinates": [114.0579, 22.5431],
+    "industry_clusters": [
+      {
+        "name": "Electronics Manufacturing",
+        "strength": "high",
+        "summary": "Dense contract manufacturing and component supply-chain network.",
+        "key_companies": ["Foxconn", "BYD"],
+        "sources": []
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-04-26"
+  },
+  {
+    "city_id": "suzhou",
+    "city_name": "Suzhou",
+    "province": "Jiangsu",
+    "coordinates": [120.5853, 31.2989],
+    "industry_clusters": [
+      {
+        "name": "Precision Manufacturing",
+        "strength": "high",
+        "summary": "Strong industrial base in high-precision and export manufacturing.",
+        "key_companies": [],
+        "sources": []
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-04-26"
+  },
+  {
+    "city_id": "shanghai",
+    "city_name": "Shanghai",
+    "province": "Shanghai",
+    "coordinates": [121.4737, 31.2304],
+    "industry_clusters": [
+      {
+        "name": "Finance & Advanced Services",
+        "strength": "high",
+        "summary": "National hub for finance, professional services, and advanced tech commercialization.",
+        "key_companies": [],
+        "sources": []
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-04-26"
+  },
+  {
+    "city_id": "wuhan",
+    "city_name": "Wuhan",
+    "province": "Hubei",
+    "coordinates": [114.3054, 30.5931],
+    "industry_clusters": [
+      {
+        "name": "Optoelectronics",
+        "strength": "medium",
+        "summary": "Known for optical communication and related component ecosystems.",
+        "key_companies": [],
+        "sources": [],
+        "notes": "Needs source expansion"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-04-26"
+  },
+  {
+    "city_id": "chengdu",
+    "city_name": "Chengdu",
+    "province": "Sichuan",
+    "coordinates": [104.0665, 30.5728],
+    "industry_clusters": [
+      {
+        "name": "Software & Electronics",
+        "strength": "medium",
+        "summary": "Growing inland technology center with electronics and software development clusters.",
+        "key_companies": [],
+        "sources": []
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-04-26"
+  }
+]
