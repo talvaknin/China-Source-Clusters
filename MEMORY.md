@@ -1,0 +1,91 @@
+# MEMORY — China Source Clusters
+
+This is the long-term project memory.
+Every feature change, correction, and decision should be logged here.
+
+---
+
+## Logging Rules
+
+For each update entry, include:
+- Date (UTC)
+- Type (`feature`, `fix`, `data-update`, `docs`, `decision`)
+- Version/commit
+- What changed
+- Why it changed
+- Impacted files/modules
+- Follow-up actions
+
+For each correction entry, also include:
+- Previous (incorrect) state
+- Corrected state
+- Evidence/source used
+- Risk of similar issue elsewhere
+
+---
+
+## Entry Template
+
+### [YYYY-MM-DD] — <title>
+- **Type**: feature | fix | data-update | docs | decision
+- **Version/Commit**: <hash>
+- **Summary**: <1-2 lines>
+- **Details**:
+  - <bullet>
+  - <bullet>
+- **Why**:
+  - <reason>
+- **Impacted Areas**:
+  - <file/module>
+- **Correction?**:
+  - Previous: <value/state or N/A>
+  - New: <value/state or N/A>
+  - Evidence: <source links or N/A>
+- **Follow-up**:
+  - [ ] <task>
+
+---
+
+## Entries
+
+### [2026-04-26] — Initial docs baseline
+- **Type**: docs
+- **Version/Commit**: b9a0bfb
+- **Summary**: Added first project documentation set (`README.md`, `PLAN.md`, `MEMORY.md`).
+- **Details**:
+  - Defined product vision and starter data contract.
+  - Added a phased roadmap and update/correction policy.
+- **Why**:
+  - Establish shared execution and documentation standards before app implementation.
+- **Impacted Areas**:
+  - `README.md`
+  - `PLAN.md`
+  - `MEMORY.md`
+- **Correction?**:
+  - Previous: N/A
+  - New: Documentation baseline established.
+  - Evidence: Repository commit history.
+- **Follow-up**:
+  - [ ] Scaffold frontend app
+  - [ ] Implement clickable pilot-city map
+
+### [2026-04-26] — Documentation refinement after review
+- **Type**: docs
+- **Version/Commit**: (this commit)
+- **Summary**: Refined docs structure for clarity, traceability, and execution readiness.
+- **Details**:
+  - Tightened README wording and made policy requirements explicit.
+  - Converted plan tasks to checkbox format and added milestone table.
+  - Updated MEMORY format and added explicit commit linkage.
+- **Why**:
+  - Improve usability of docs and make progress tracking easier during execution.
+- **Impacted Areas**:
+  - `README.md`
+  - `PLAN.md`
+  - `MEMORY.md`
+- **Correction?**:
+  - Previous: Initial draft only.
+  - New: More actionable and audit-friendly documentation.
+  - Evidence: This commit.
+- **Follow-up**:
+  - [x] Commit hash intentionally tracked as `(this commit)` to avoid amend drift.
