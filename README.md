@@ -83,7 +83,9 @@ See `TECH_STACK.md` for implementation-level package and command details.
 ├── TECH_STACK.md
 ├── PLAN.md
 ├── MEMORY.md
+├── CONTRIBUTING.md
 ├── data/
+│   ├── cities.example.json
 │   ├── cities.json
 │   └── industries.json
 ├── src/
@@ -96,6 +98,18 @@ See `TECH_STACK.md` for implementation-level package and command details.
     └── geo/
         └── china.geojson
 ```
+
+
+## Starter Dataset
+
+A seed file is now included at `data/cities.example.json` with 5 pilot cities:
+- Shenzhen
+- Suzhou
+- Shanghai
+- Wuhan
+- Chengdu
+
+Use it as the initial dataset for map plotting and city-click interactions.
 
 ## Documentation Policy (Mandatory)
 
@@ -119,4 +133,5 @@ npm run dev
 
 - Roadmap: `PLAN.md`
 - Tech stack details: `TECH_STACK.md`
+- Contribution workflow: `CONTRIBUTING.md`
 - Historical updates + corrections: `MEMORY.md`

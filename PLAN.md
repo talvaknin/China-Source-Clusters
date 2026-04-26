@@ -25,6 +25,7 @@ Deliver an interactive map of China with clickable city profiles that are source
 ### Tasks
 - [ ] Finalize tech stack in `TECH_STACK.md`.
 - [ ] Finalize city schema fields.
+- [ ] Add and validate `data/cities.example.json` seed dataset (5 pilot cities).
 - [ ] Finalize industry taxonomy.
 - [ ] Define confidence rubric (`low/medium/high`).
 - [ ] Define source citation requirements.
@@ -119,6 +120,6 @@ Deliver an interactive map of China with clickable city profiles that are source
 1. Confirm and install locked stack from `TECH_STACK.md`.
 2. Lock schema and taxonomy.
 3. Scaffold app.
-4. Add first 5 pilot cities: Shenzhen, Suzhou, Shanghai, Wuhan, Chengdu.
+4. Load `data/cities.example.json` into the map prototype.
 5. Implement click-to-open city panel.
 6. Record all progress in `MEMORY.md`.

@@ -111,3 +111,27 @@ For each correction entry, also include:
   - Evidence: This commit.
 - **Follow-up**:
   - [ ] Run stack initialization commands and scaffold app
+
+
+### [2026-04-26] — Added starter dataset and contribution guide
+- **Type**: docs
+- **Version/Commit**: (this commit)
+- **Summary**: Added contributor workflow doc and a pilot-city seed dataset to accelerate scaffold.
+- **Details**:
+  - Added `CONTRIBUTING.md` with PR, data update, and correction checklists.
+  - Added `data/cities.example.json` with 5 pilot city records and cluster fields.
+  - Updated `README.md` and `PLAN.md` to reference the new files.
+- **Why**:
+  - Convert documentation into an immediately usable implementation baseline.
+- **Impacted Areas**:
+  - `CONTRIBUTING.md`
+  - `data/cities.example.json`
+  - `README.md`
+  - `PLAN.md`
+  - `MEMORY.md`
+- **Correction?**:
+  - Previous: Docs described next steps but had no starter dataset file.
+  - New: Starter dataset and contributor workflow are now included.
+  - Evidence: This commit.
+- **Follow-up**:
+  - [ ] Scaffold app and wire map to `data/cities.example.json`
